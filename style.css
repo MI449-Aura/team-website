@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
+#top {
     background-image:
         radial-gradient(#1C1C25 1px, transparent 1px),
         radial-gradient(#1C1C25 1px, transparent 1px),
@@ -46,10 +46,19 @@ p {
     text-decoration: underline;
 }
 
+.scroll-to-top {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+
 #mainContent {
     background-color: #2C2C3A;
     text-align: center;
     margin: 0 auto 0 auto;
+    padding-bottom: 50px;
     width: 100%;
     max-width: 950px;
     box-shadow: 0px 0px 30px black;
@@ -75,6 +84,11 @@ p {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 30px;
+}
+
+#memberAnchor {
+    margin: 0 auto;
+    padding: 0px 115px;
 }
 
 #memberSection {
