@@ -47,9 +47,12 @@ p {
 }
 
 .scroll-to-top {
-    margin: 0 auto;
-    padding-bottom: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #0095FF;
+    border-radius: 10px;
     justify-content: center;
+    text-align: center;
     text-decoration: none;
     font-size: 24px;
 }
@@ -153,5 +156,26 @@ p {
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+}
+
+.reactheader {
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+.slot-machine {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0px 100px;
+    gap: 10px;
+    justify-self: center;
+    align-items: center;
+}
+
+
+.slot-machine img {
+    width: 100%;
+    max-width: 1000px;
 }
 
