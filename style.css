@@ -179,3 +179,48 @@ p {
     max-width: 1000px;
 }
 
+@media (max-width: 768px) {
+    #navbar {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        padding: 10px 0;
+        gap: 10px;
+        width: 100%;
+    }
+
+    #navbar a {
+        font-size: 18px;
+    }
+
+    .member,
+    .memberRev {
+        flex-direction: column;
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    .memberDesc {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .slot-machine {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .slot-machine img {
+        max-width: 100%;
+    }
+
+    #logo img {
+        padding: 30px;
+        max-width: 180px;
+    }
+
+    #logo h1 {
+        font-size: 28px;
+    }
+
+}
